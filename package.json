@@ -6,9 +6,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "clear;node index.js"
   },
-  "author": "",
+  "author": "Bismay <bismay4u@gmail.com>",
   "license": "ISC",
-  "description": "",
+  "description": "A small express based server to host small express + bootstrap based application generated using AI and hosted quickly.",
   "dependencies": {
     "axios": "^1.13.2",
     "cors": "^2.8.5",
