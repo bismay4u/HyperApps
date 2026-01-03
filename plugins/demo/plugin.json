@@ -2,5 +2,7 @@
     "name": "Demo",
     "description": "Demo Module",
     "icon": "📊",
-    "color": "green"
+    "color": "green",
+    "author": "Bismay M.",
+    "aiagent": "LogiksAI"
 }
