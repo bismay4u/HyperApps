@@ -5,6 +5,7 @@ const cors = require('cors');
 const winston = require('winston');
 
 module.exports = function(appServer) {
+    appServer.use(cors());
     appServer.use(express.json());
     appServer.use(express.urlencoded({ extended: true }));
 
@@ -19,7 +20,7 @@ module.exports = function(appServer) {
     });
 
     appServer.use((req, res, next) => {
-        //console.log("REQUEST FOR : ", req.url, req.originalUrl, req.path, req.baseUrl, req.method, req.host, req.query, req.params, req.body);
+        console.log("REQUEST FOR : ", req.url, req.originalUrl, req.path, req.baseUrl, req.method, req.host, req.params, req.body);
         next();
     });
 

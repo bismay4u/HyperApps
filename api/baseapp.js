@@ -21,7 +21,7 @@ module.exports = function(app) {
                 const config = JSON.parse(fs.readFileSync(configFile, 'utf8'));
 
                 if(fs.existsSync(servicePath)) {
-                    require(servicePath)('/'+folder, app);
+                    require(servicePath)('/api/'+folder, app);
                 }
                 if(fs.existsSync(wwwPath)) {
                     app.use('/'+folder, express.static(wwwPath));

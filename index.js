@@ -19,6 +19,8 @@ const _CONFIG = global._CONFIG = {};
 _CONFIG.START_TIME = moment().format();
 _CONFIG.ROOT_PATH  = __dirname;
 _CONFIG.PLUGIN_PATH = __dirname + "/plugins/";
+_CONFIG.OUTPUT_PATH = __dirname + "/output/";
+_CONFIG.TEMP_PATH = __dirname + "/temp/";
 
 const appServer = express();
 

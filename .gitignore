@@ -51,3 +51,8 @@ build/
 zold/
 demo/
 ecosystem.config.js
+temp/
+tmp/
+output/
+data/
+logs/
